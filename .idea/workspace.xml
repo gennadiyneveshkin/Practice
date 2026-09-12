@@ -1,20 +1,70 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="2c7edd98-984d-4fed-81e9-b491f8db511b" name="Changes" comment="" />
+    <list default="true" id="2c7edd98-984d-4fed-81e9-b491f8db511b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/EdusonAcademy/CaesarСipher.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eguson/AllDividers.py" beforeDir="false" afterPath="$PROJECT_DIR$/EdusonAcademy/AllDividers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eguson/Anagram.py" beforeDir="false" afterPath="$PROJECT_DIR$/EdusonAcademy/Anagram.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eguson/Average.py" beforeDir="false" afterPath="$PROJECT_DIR$/EdusonAcademy/Average.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eguson/CalculateSummOfNumber.py" beforeDir="false" afterPath="$PROJECT_DIR$/EdusonAcademy/CalculateSummOfNumber.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eguson/CheckFirstLetter.py" beforeDir="false" afterPath="$PROJECT_DIR$/EdusonAcademy/CheckFirstLetter.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eguson/CountSimilarWords.py" beforeDir="false" afterPath="$PROJECT_DIR$/EdusonAcademy/CountSimilarWords.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eguson/CountWordsQuantity.py" beforeDir="false" afterPath="$PROJECT_DIR$/EdusonAcademy/CountWordsQuantity.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eguson/DaysPerMonth+LeapYear.py" beforeDir="false" afterPath="$PROJECT_DIR$/EdusonAcademy/DaysPerMonth+LeapYear.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eguson/Decipher.py" beforeDir="false" afterPath="$PROJECT_DIR$/EdusonAcademy/Decipher.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eguson/DeliveryCoast.py" beforeDir="false" afterPath="$PROJECT_DIR$/EdusonAcademy/DeliveryCoast.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eguson/EvenNumbers.py" beforeDir="false" afterPath="$PROJECT_DIR$/EdusonAcademy/EvenNumbers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eguson/Factorial.py" beforeDir="false" afterPath="$PROJECT_DIR$/EdusonAcademy/Factorial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eguson/FibonacciNumbers.py" beforeDir="false" afterPath="$PROJECT_DIR$/EdusonAcademy/FibonacciNumbers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eguson/FindingRepeatingLetters.py" beforeDir="false" afterPath="$PROJECT_DIR$/EdusonAcademy/FindingRepeatingLetters.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eguson/Median.py" beforeDir="false" afterPath="$PROJECT_DIR$/EdusonAcademy/Median.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eguson/MultiplicationTable.py" beforeDir="false" afterPath="$PROJECT_DIR$/EdusonAcademy/MultiplicationTable.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eguson/ParityCheck.py" beforeDir="false" afterPath="$PROJECT_DIR$/EdusonAcademy/ParityCheck.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eguson/SearchElementsInList.py" beforeDir="false" afterPath="$PROJECT_DIR$/EdusonAcademy/SearchElementsInList.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eguson/SearchRepeatingNumbers.py" beforeDir="false" afterPath="$PROJECT_DIR$/EdusonAcademy/SearchRepeatingNumbers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eguson/SecondsTotal.py" beforeDir="false" afterPath="$PROJECT_DIR$/EdusonAcademy/SecondsTotal.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eguson/SumNumbers.py" beforeDir="false" afterPath="$PROJECT_DIR$/EdusonAcademy/SumNumbers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eguson/TicketPriceCalculator.py" beforeDir="false" afterPath="$PROJECT_DIR$/EdusonAcademy/TicketPriceCalculator.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5,
-  "fromUser": false
-}]]></component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;gennadiyneveshkin&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/gennadiyneveshkin/Practice&quot;,
+    &quot;accountId&quot;: &quot;25c419d3-5dff-44ea-96e1-8b3c1124034e&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5,
+  &quot;fromUser&quot;: false
+}</component>
   <component name="ProjectId" id="3JE41DezZ7rNkrtEiEsmSdYiFj8" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -22,13 +72,25 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.CaesarСipher.executor": "Run",
+    "Python.MultiplicationTable.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
     "git-widget-placeholder": "master",
-    "python.packages.toolwindow.project.migrated.to.right.top.v2": "true"
+    "node.js.detected.package.jshint": "true",
+    "node.js.selected.package.jshint": "",
+    "python.packages.toolwindow.project.migrated.to.right.top.v2": "true",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\PycharmProgects\Practice\PythonAcademy" />
+      <recent name="D:\PycharmProgects\Practice\EgusonPractice" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
