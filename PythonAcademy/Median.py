@@ -4,6 +4,8 @@
 # если чисел чётное количество, медиана — это среднее арифметическое двух средних элементов после сортировки.
 
 
+# Мой вариант
+
 import math
 
 
@@ -14,6 +16,7 @@ def find_median(input_string):
     print(input_string)
 
     # Преобразовываем input_string в список с числами, в нем каждый элемент имеет тип int
+    # Используем списочное включение
     input_string = [int(x) for x in input_string]
     print(input_string)
 
@@ -53,3 +56,31 @@ def find_median(input_string):
 
 input_string = '0 1 0 3 12'
 print(find_median(input_string))
+
+print()
+
+# Вариант Чат ГПТ Разобрать!!!
+
+def find_median(input_string):
+
+    # Преобразовываем input_string в список с числами, в нем каждый элемент имеет тип int
+    # Используем списочное включение
+    numbers = list(map(int, input_string.split()))
+
+    # Сортируем input_string по возрастанию
+    numbers.sort()
+
+    n = len(numbers)
+
+    # Если в списке нечетное количество элементов:
+    if n % 2 == 1:
+        # Возвращаем средний элемент в списке
+        return numbers[n // 2]
+
+    median = (numbers[n // 2 - 1] + numbers[n // 2]) / 2
+
+    # Если median является числом целого типа
+    if median.is_integer():
+        return int(median)
+    # Возвращаем округленное значение до десятых
+    return round(median, 1)
