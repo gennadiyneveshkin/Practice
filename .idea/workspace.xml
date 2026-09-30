@@ -5,9 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2c7edd98-984d-4fed-81e9-b491f8db511b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/EdusonAcademy/ProcessArray.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EdusonAcademy/SwapGroups.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EdusonAcademy/CardBattle.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EdusonAcademy/GaphCheck.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EdusonAcademy/LongestIncreasingSubsequence.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EdusonAcademy/RowCheck)(.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EdusonAcademy/Factorial.py" beforeDir="false" afterPath="$PROJECT_DIR$/EdusonAcademy/Factorial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EdusonAcademy/test2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonAcademy/MoveZeroes.py" beforeDir="false" afterPath="$PROJECT_DIR$/PythonAcademy/MoveZeroes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +60,9 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "Python.CaesarСipher.executor": "Run",
     "Python.ContainsDuplicate.executor": "Run",
+    "Python.LongestRun.executor": "Run",
     "Python.Median.executor": "Run",
+    "Python.MoveZeroes.executor": "Run",
     "Python.MultiplicationTable.executor": "Run",
     "Python.Palindrome.executor": "Run",
     "Python.ProcessArray.executor": "Run",
@@ -61,6 +70,8 @@
     "Python.SecondMaximum.executor": "Run",
     "Python.SwapGroups.executor": "Run",
     "Python.UniqueValues.executor": "Run",
+    "Python.test.executor": "Run",
+    "Python.test2.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
@@ -76,6 +87,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\PycharmProgects\Practice" />
       <recent name="D:\PycharmProgects\Practice\PythonAcademy" />
       <recent name="D:\PycharmProgects\Practice\EgusonPractice" />
     </key>
