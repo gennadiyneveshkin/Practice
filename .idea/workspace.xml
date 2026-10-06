@@ -5,16 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2c7edd98-984d-4fed-81e9-b491f8db511b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/EdusonAcademy/CardBattle.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EdusonAcademy/GaphCheck.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EdusonAcademy/LongestIncreasingSubsequence.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EdusonAcademy/RowCheck)(.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EdusonAcademy/FileParsing.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EdusonAcademy/JoinFilesData.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EdusonAcademy/ReadlinesFunction.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test/test3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test/test4.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test/test5.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Practice.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Practice.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EdusonAcademy/Factorial.py" beforeDir="false" afterPath="$PROJECT_DIR$/EdusonAcademy/Factorial.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EdusonAcademy/test2.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonAcademy/MoveZeroes.py" beforeDir="false" afterPath="$PROJECT_DIR$/PythonAcademy/MoveZeroes.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EdusonAcademy/LongestIncreasingSubsequence.py" beforeDir="false" afterPath="$PROJECT_DIR$/EdusonAcademy/LongestIncreasingSubsequence.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test2.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,8 +42,8 @@
 }</component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/gennadiyneveshkin/Practice&quot;,
-    &quot;accountId&quot;: &quot;25c419d3-5dff-44ea-96e1-8b3c1124034e&quot;
+    &quot;url&quot;: &quot;https://github.com/gennadiyneveshkin/Practice.git&quot;,
+    &quot;accountId&quot;: &quot;6cdaa0c3-a33c-439a-b19c-afda29f49ba4&quot;
   }
 }</component>
   <component name="ProjectColorInfo">{
@@ -60,6 +63,8 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "Python.CaesarСipher.executor": "Run",
     "Python.ContainsDuplicate.executor": "Run",
+    "Python.FileParsing.executor": "Run",
+    "Python.JoinFilesData.executor": "Run",
     "Python.LongestRun.executor": "Run",
     "Python.Median.executor": "Run",
     "Python.MoveZeroes.executor": "Run",
@@ -67,6 +72,7 @@
     "Python.Palindrome.executor": "Run",
     "Python.ProcessArray.executor": "Run",
     "Python.ProductNumbers.executor": "Run",
+    "Python.ReadlinesFunction.executor": "Run",
     "Python.SecondMaximum.executor": "Run",
     "Python.SwapGroups.executor": "Run",
     "Python.UniqueValues.executor": "Run",
@@ -82,20 +88,22 @@
     "node.js.selected.package.jshint": "",
     "nodejs_package_manager_path": "npm",
     "python.packages.toolwindow.project.migrated.to.right.top.v2": "true",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+    "settings.editor.selected.configurable": "preferences.general"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\PycharmProjects\Practice\EdusonAcademy" />
+      <recent name="D:\PycharmProjects\Practice\Tests" />
+      <recent name="D:\PycharmProjects\Practice" />
+      <recent name="D:\PycharmProjects\Practice\PythonAcademy" />
       <recent name="D:\PycharmProgects\Practice" />
-      <recent name="D:\PycharmProgects\Practice\PythonAcademy" />
-      <recent name="D:\PycharmProgects\Practice\EgusonPractice" />
     </key>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-eff1e8def5f5-5bd6d13a2a75-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-262.10315.174" />
+        <option value="bundled-python-sdk-73a66231627c-5bd6d13a2a75-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-262.10968.92" />
       </set>
     </attachedChunks>
   </component>

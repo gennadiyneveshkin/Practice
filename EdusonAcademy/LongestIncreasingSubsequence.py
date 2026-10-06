@@ -10,25 +10,15 @@ def longest_increasing_subsequence(nums):
     if not nums:
         return 0
 
-    n = len(nums)
-    # memo[i] — длина наибольшей возрастающей подпоследовательности,
-    # которая начинается с элемента nums[i]
-    memo = {}
+    # Инициализируйте массив, в котором будут храниться длины подпоследовательностей
+    dp = [1] * len(nums)
 
-    def lis_from(idx):
-        if idx in memo:
-            return memo[idx]
+    # Для каждого элемента списка найдите наибольшую длину
+    # возрастающей подпоследовательности, которая оканчивается на nums[i]
+    for i in range(1, len(nums)):
+        for j in range(i):
+            if nums[i] > nums[j]:
+                dp[i] = max(dp[i], dp[j] + 1)
 
-        best = 1
-        for i in range(idx + 1, n):
-            if nums[i] > nums[idx]:
-                best = max(best, 1 + lis_from(i))
-
-        memo[idx] = best
-        return best
-
-    counter = 0
-    for i in range(n):
-        counter = max(counter, lis_from(i))
-
-    return counter
+    # Верните максимальное значение в dp
+    return max(dp)
