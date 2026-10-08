@@ -5,19 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2c7edd98-984d-4fed-81e9-b491f8db511b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/EdusonAcademy/FileParsing.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EdusonAcademy/JoinFilesData.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EdusonAcademy/ReadlinesFunction.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test/test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test/test3.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test/test4.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test/test5.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Practice.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Practice.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EdusonAcademy/DeleteDocstrings#.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test/test.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test/test1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test/test2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EdusonAcademy/LongestIncreasingSubsequence.py" beforeDir="false" afterPath="$PROJECT_DIR$/EdusonAcademy/LongestIncreasingSubsequence.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EdusonAcademy/JoinFilesData.py" beforeDir="false" afterPath="$PROJECT_DIR$/EdusonAcademy/JoinFilesData.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EdusonAcademy/ReadlinesFunction.py" beforeDir="false" afterPath="$PROJECT_DIR$/EdusonAcademy/ReadlinesFunction.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/test4.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Test/test4.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/test5.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Test/test5.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,6 +60,7 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "Python.CaesarСipher.executor": "Run",
     "Python.ContainsDuplicate.executor": "Run",
+    "Python.DeleteDocstrings#.executor": "Run",
     "Python.FileParsing.executor": "Run",
     "Python.JoinFilesData.executor": "Run",
     "Python.LongestRun.executor": "Run",

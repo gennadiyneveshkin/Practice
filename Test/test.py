@@ -1,7 +1,3 @@
-text = ['a', 'b', 'c']
-text = ', '.join(text)
-print(text)
-print('a'+'bc')
-text2 = 'abc'
-text2 = ', '.join(text2)
-print(text2)
+list = ['el1', 'el2', 'el3']
+for i in enumerate(list):
+    print (i)
