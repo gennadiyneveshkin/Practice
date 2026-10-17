@@ -20,3 +20,21 @@ def all_dividers(number):
 
     # В качестве ответа верните список делителей
     return dividers
+
+# Вариант Cursor, сложность O(√n), быстрее,  практичный вариант
+# pair это второй делитель, который учитвывает сразу и второй делитель:
+
+def all_dividers(number: int) -> list[int]:
+    if number <= 0:
+        raise ValueError("ожидается положительное целое число")
+
+    dividers = []
+    i = 1
+    while i * i <= number:
+        if number % i == 0:
+            dividers.append(i)
+            pair = number // i
+            if pair != i:
+                dividers.append(pair)
+        i += 1
+    return sorted(dividers)

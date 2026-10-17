@@ -8,13 +8,12 @@ file_new =  open('../Test/test5.txt', 'a', encoding='utf-8')
 
 # Открываем для чтения файл в котором нужно пронумеровать строки
 with open('../Test/test4.txt', 'r', encoding='utf-8') as file:
-
     # Читаем файл построчно. Строка заканчивается переходом \n. Ввозвращаемое значение - список из строк.
     file_splitted = file.readlines()
     print(file_splitted)
 
     for i, el in enumerate(file_splitted):
-
+        
         # Добавляем в новый файл построчно: порядковый номер, двоеточие, пробел и строку el с помощью конкатенации
         file_new.write(str(i+1) + ': ' + el)
 
