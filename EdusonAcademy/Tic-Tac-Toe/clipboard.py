@@ -1,8 +1,25 @@
-flag = True
-while flag:
-    X = input('Введите двузначное число: ')
+def draw_board(board):
+    """
+    Рисует игровое поле
+    """
+    for i in range(3):
+        print(' | '.join(board[i]))
+        print('---------')
+
+def is_integer (n):
+    """
+    Проверяет, введено ли число
+    """
     try:
-        int(X)
-        flag = False
+        int(n)
+        return True
     except ValueError:
-        print('Ошибка ввода')
+        return False
+
+while True:
+   X = input('Введите число: ')
+   if not is_integer(X):
+       print('Ошибка ввода')
+       continue
+   else:
+       break

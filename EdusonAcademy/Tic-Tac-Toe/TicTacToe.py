@@ -1,24 +1,6 @@
 #Генерируем двумерный список из пробелов
 board = [[' ' for x in range(3)] for x in range(3)]
 
-def draw_board(board):
-    """
-    Рисует игровое поле
-    """
-    for i in range(3):
-        print(' | '.join(board[i]))
-        print('---------')
-
-# Проверяем, являются ли введенные символы числом
-def isinteger (N):
-    full = True
-    while full:
-        try:
-            int(N)
-        except ValueError:
-            print('Ошибка ввода')
-        continue
-
 # Счетчик ходов
 count = 0
 
@@ -29,9 +11,26 @@ while True:
             'Первая цифра - номер строки.\n'
             'Вторая цифра - номер яцейки в строке: ')
     isinteger(Х)
+    continue
 
 
+def draw_board(board):
+    """
+    Рисует игровое поле
+    """
+    for i in range(3):
+        print(' | '.join(board[i]))
+        print('---------')
 
+# Проверяем, являются ли введенные символы числом
+def isinteger (N):
+    flag = True
+    while flag:
+        try:
+            int(N)
+        except ValueError:
+            print('Ошибка ввода')
+        continue
 
         # Проверяем правильность ввода
         # Если цифры введенного числа не лежат в диапазоне от 1 до 3
