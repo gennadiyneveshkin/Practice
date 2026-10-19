@@ -42,23 +42,21 @@ def is_winner(n:str, board:list):
     """
     Проверяет, является ли ход победным
     """
-    if (
-        # Проверка горизонталей
-        all(x == n for x in board[0]) or
-        all(x == n for x in board[1]) or
-        all(x == n for x in board[2]) or
 
-        # Проверка вертикалей
-        board[0][0] == n and board[1][0] == n and board[2][0] == n or
-        board[0][1] == n and board[1][1] == n and board[2][1] == n or
-        board[0][2] == n and board[1][2] == n and board[2][2] == n or
+    # Проверка горизонталей
+    for row in board:
+        if all(cell == 'X' for cell in row):
+            return True
 
-        # Проверка диагоналей
-        board[0][0] == n and board[1][1] == n and board[2][2] == n or
-        board[0][2] == n and board[1][1] == n and board[2][0] == n
-    ):
-        return True
+    # Проверка вертикалей
+    for i in range(3):
+
+        # Если все i-е элементы
+        return all(x[i] == 'X' for x in board)
+
+
     return False
+
 
 # Генерируем двумерный список из пробелов
 board = [[' ' for x in range(3)] for x in range(3)]
@@ -85,6 +83,7 @@ while True:
     X = transform(X)
 
     # Ставим крестик в указанную ячейку
+    # board [индекс списка][индекс элемента в этом списке]
     board [int(X[0])][int(X[1])] = 'X'
 
     draw_board(board)
