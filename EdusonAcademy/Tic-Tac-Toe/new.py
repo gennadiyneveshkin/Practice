@@ -56,7 +56,6 @@ def make_move(player, board) -> None:
     draw_board(board)
 
 
-
 def is_winner(player:str, board:list) -> bool:
     """
     Проверяет, является ли ход победным
@@ -91,6 +90,9 @@ def is_board_full(board: list) -> bool:
 
 # Генерируем двумерный список из пробелов
 board = [[' ' for x in range(3)] for x in range(3)]
+
+# Рисуем пустое поле
+draw_board(board)
 
 while True:
 
