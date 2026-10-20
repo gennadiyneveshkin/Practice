@@ -6,121 +6,112 @@ def draw_board(board):
         print(' | '.join(board[i]))
         print('---------')
 
-def is_two_digit (n:str) -> bool:
-    """
-    Проверяет, введено ли число и двузначное ли оно
-    """
-    return n.isdigit() and len(n) == 2
-
 def is_correct_coordinates (n:str) -> bool:
     """
-    Проверяет, введены ли допустимые координаты (цифры 1, 2 или 3)
+    Проверяет ввод
     """
+    # Сначала проверяем формат: только цифры и ровно 2 символа
+    if not isinstance(n, str) or not (n.isdigit() and len(n) == 2):
+        return False
+
+    # Теперь безопасно преобразуем в числа
     k = int(n[0])
     m = int(n[1])
 
-    return 0 < k <= 3 and 0 < m <= 3
+    # Проверяем, что цифры в диапазоне 1–3
+    return 1 <= k <= 3 and 1 <= m <= 3
 
-def transform(n):
+def transform(n:str) -> tuple[int, int]:
 
     """ Преобразуем строку с числом в формат где первый элемент имеет индекс 0
     т. к. пользователь будет вводить координаты отсчитывая от 1
     """
-    n = str(int(n[0]) - 1) + str(int(n[1]) - 1)
-    return n
 
-def is_cell_occupied (n:str, board:list)->bool:
-    """
-    Проверяет, свободна ли ячейка
-    """
-    n = transform(n)
-    if board[int(n[0])][int(n[1])] == 'X' or board[int(n[0])][int(n[1])] == 'O':
-        return True
-    return False
+    # Возвращаем кортеж из координат
+    return int(n[0]) - 1, int(n[1]) - 1
 
-def is_winner(n:str, board:list):
+def make_move(player, board) -> None:
+    while True:
+        coord = input(f'Введите двузначное число, координаты {player}: ')
+
+        if not is_correct_coordinates(coord):
+            print('Неверные координаты. Используйте цифры от 1 до 3')
+            continue
+
+        # Один раз преобразуем в индексы
+        row, col = transform(coord)
+
+        # Проверяем занятость, используя уже готовые индексы
+        cell = board[row][col]
+        if cell == 'X' or cell == 'O':
+            print('Ячейка занята')
+            continue
+
+        break
+
+    # Ставим крестик или нолик
+    board[row][col] = player
+
+    # Отрисовываем доску
+    draw_board(board)
+
+
+
+def is_winner(player:str, board:list) -> bool:
     """
     Проверяет, является ли ход победным
     """
 
-    # Проверка горизонталей
+    # Горизонтали
     for row in board:
-        if all(cell == 'X' for cell in row):
+        if all(cell == player for cell in row):
+            return True
+    # Вертикали
+    for i in range(3):
+        if all(row[i] == player for row in board):
             return True
 
-    # Проверка вертикалей
-    for i in range(3):
-
-        # Если все i-е элементы
-        return all(x[i] == 'X' for x in board)
-
+    # Диагонали
+    if all(board[i][i] == player for i in range(3)):
+        return True
+    if all(board[i][2 - i] == player for i in range(3)):
+        return True
 
     return False
 
 
+def is_board_full(board: list) -> bool:
+    """Проверяет, заполнено ли поле (нет свободных ячеек). Если True то ничья"""
+    for row in board:
+        if ' ' in row:
+            return False
+    return True
+
+# ------- Основная игра --------
+
 # Генерируем двумерный список из пробелов
 board = [[' ' for x in range(3)] for x in range(3)]
-
-# Счетчик ходов
-count = 0
 
 while True:
 
     # Ход крестиков
-    while True:
-        X = input('Введите двузначное число, координаты крестика: ')
-        if not is_two_digit(X):
-            print('Ошибка ввода: Используйте цифры от 1 до 3')
-            continue
-        elif not is_correct_coordinates (X):
-            print('Неверные координаты. Используйте цифры от 1 до 3')
-            continue
-        elif is_cell_occupied(X, board):
-            print('Ячейка занята')
-        else:
-           break
-
-    X = transform(X)
-
-    # Ставим крестик в указанную ячейку
-    # board [индекс списка][индекс элемента в этом списке]
-    board [int(X[0])][int(X[1])] = 'X'
-
-    draw_board(board)
+    make_move('X', board)
 
     if is_winner('X', board):
         print ('Крестики победили!')
         break
 
-    count += 1
-
-    if count >= 9:
-        print('Ничья!')
+    if is_board_full(board):
+        print('Ничья')
         break
 
     # Ход ноликов
-    while True:
-        O = input('Введите двузначное число, координаты нолика: ')
-        if not is_two_digit(O):
-            print('Ошибка ввода: Используйте цифры от 1 до 3')
-            continue
-        elif not is_correct_coordinates(O):
-            print('Неверные координаты. Используйте цифры от 1 до 3')
-            continue
-        elif is_cell_occupied(O, board):
-            print('Ячейка занята')
-        else:
-            break
-
-    O = transform(O)
-
-    # Ставим нолик в указанную ячейку
-    board[int(O[0])][int(O[1])] = 'O'
-
-    draw_board(board)
+    make_move('O', board)
 
     if is_winner('O', board):
         print('Нолики победили!')
         break
 
-    count += 1
+    if is_board_full(board):
+        print('Ничья')
+        break

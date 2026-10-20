@@ -16,3 +16,16 @@ def is_winner(player: str, board: list) -> bool:
         return True
 
     return False
+
+
+def is_winner(player: str, board: list) -> bool:
+    for col in range(3):
+        if all(board[row][col] == player for row in range(3)):
+            return True
+    return False
+
+def is_winner(player:str, board:list):
+    for col in range(3):
+        if all(x[col] == player for x in board):
+            return True
+    return False

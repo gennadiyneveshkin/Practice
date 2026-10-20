@@ -6,8 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="2c7edd98-984d-4fed-81e9-b491f8db511b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EdusonAcademy/Tic-Tac-Toe/TicTacToe.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/EdusonAcademy/Tic-Tac-Toe/clipboard.py" beforeDir="false" afterPath="$PROJECT_DIR$/EdusonAcademy/Tic-Tac-Toe/clipboard.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/EdusonAcademy/Tic-Tac-Toe/new.py" beforeDir="false" afterPath="$PROJECT_DIR$/EdusonAcademy/Tic-Tac-Toe/new.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EdusonAcademy/Tic-Tac-Toe/simplified winner check.py" beforeDir="false" afterPath="$PROJECT_DIR$/EdusonAcademy/Tic-Tac-Toe/simplified winner check.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

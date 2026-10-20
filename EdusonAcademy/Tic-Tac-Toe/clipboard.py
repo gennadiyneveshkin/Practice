@@ -1,22 +1,18 @@
-# board = [[11, 12, 13],
-#         [11, 22, 23],
-#         [11, 32, 33]]
-#
-# for i in range(3):
-#     a = [x[i] for x in board]
-#     print(a)
-#     if all(a) == 11:
-#         print (True)
-#
-#
-#
-# for i in range(3):
-#     if all([x[i] == 11 for x in board]):
-#         print (True)
-#     else:
-#         print(False)
+def make_move (player, board)-> None:
+    while True:
+        coord = input(f'Введите двузначное число, координаты {player}: ')
+        if not is_correct_coordinates(coord):
+            print('Неверные координаты. Используйте цифры от 1 до 3')
+            continue
+        if is_cell_occupied(coord, board):
+            print('Ячейка занята')
+            continue
+        break
 
-list = [1, 1, 1, 1]
-if all(x == 1 for x in list):
-# если все элементы в списке равны 1
-    print(True)
+    row, col = transform(X)
+
+    # Ставим крестик или нолик в указанную ячейку
+    board[row][col] = player
+
+    # Отрисовываем доску после изменений
+    draw_board(board)
