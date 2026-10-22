@@ -88,32 +88,43 @@ def is_board_full(board: list) -> bool:
 
 # ------- Основная игра --------
 
-# Генерируем двумерный список из пробелов
-board = [[' ' for x in range(3)] for x in range(3)]
+def tic_tac_toe(size):
+    # Бесконечный цикл игры
+    while True:
 
-# Рисуем пустое поле
-draw_board(board)
+        # Генерируем двумерный список из пробелов
+        board = [[' ' for x in range(size)] for x in range(size)]
 
-while True:
+        # Рисуем пустое поле
+        draw_board(board)
 
-    # Ход крестиков
-    make_move('X', board)
+        # Бесконечный цикл раунда
+        while True:
 
-    if is_winner('X', board):
-        print ('Крестики победили!')
-        break
+            # Ход крестиков
+            make_move('X', board)
 
-    if is_board_full(board):
-        print('Ничья')
-        break
+            if is_winner('X', board):
+                print ('Крестики победили!')
+                break
 
-    # Ход ноликов
-    make_move('O', board)
+            if is_board_full(board):
+                print('Ничья')
+                break
 
-    if is_winner('O', board):
-        print('Нолики победили!')
-        break
+            # Ход ноликов
+            make_move('O', board)
 
-    if is_board_full(board):
-        print('Ничья')
-        break
+            if is_winner('O', board):
+                print('Нолики победили!')
+                break
+
+            if is_board_full(board):
+                print('Ничья')
+                break
+
+        restart = input("Хотите сыграть еще раз? (y/n)")
+        if restart.lower() != "y":
+            break
+
+tic_tac_toe(3)
