@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2c7edd98-984d-4fed-81e9-b491f8db511b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/EdusonAcademy/GetDictionary_Value.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EdusonAcademy/SortDictionary.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EdusonAcademy/ClearList.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
